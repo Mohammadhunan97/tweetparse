@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/Mohammadhunan97/tweetparse#readme",
   "dependencies": {
+    "array-to-csv": "^1.0.1",
     "csvtojson": "^1.1.7",
-    "fast-csv": "^2.4.0",
     "file-system": "^2.2.2"
   }
 }
