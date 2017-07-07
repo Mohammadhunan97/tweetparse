@@ -18,7 +18,7 @@ csv().fromFile(csvFilePath).on('csv',(csvRow)=>{ //this func will
 })
 .on('done',()=>{
     c('end')
-    fs.writeFile('parsedtweets.csv', toCSV(tweets) , (err) => {
+    fs.writeFile('parseddata.csv', toCSV(tweets) , (err) => {
 	  if (!err){
 		c('The file has been saved!');
 	  }else{
