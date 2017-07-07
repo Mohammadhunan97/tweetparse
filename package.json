@@ -1,0 +1,24 @@
+{
+  "name": "tweetparse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohammadhunan97/tweetparse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohammadhunan97/tweetparse/issues"
+  },
+  "homepage": "https://github.com/Mohammadhunan97/tweetparse#readme",
+  "dependencies": {
+    "csvtojson": "^1.1.7",
+    "fast-csv": "^2.4.0",
+    "file-system": "^2.2.2"
+  }
+}
